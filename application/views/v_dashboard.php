@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php $this->load->view('layout/header'); ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="card" style="width: 500px;">
+            <div class="card-body">
+                <h1 class="card-title">Calcdashboard</h1>
+                <a href="tambah">Ke penambahan</a><br>
+                <a href="kurang">Ke pengurangan</a><br>
+                <a href="perkalian">Ke perkalian</a><br>
+                <a href="pembagian">Ke pembagian</a><br>
+                <a href="pangkat">Ke perpangkatan</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-</head>
-
-<body>
-
-    <h1>Calcdashboard</h1><br>
-    <a href="tambah">Ke penambahan</a><br>
-    <a href="">Ke pengurangan</a><br>
-    <a href="perkalian">Ke perkalian</a><br>
-    <a href="pembagian">Ke pembagian</a>
-
-</body>
-
-</html>
+<?php $this->load->view('layout/footer'); ?>
