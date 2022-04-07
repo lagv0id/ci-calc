@@ -12,9 +12,9 @@
 <body>
 
     <h1>Calcdashboard</h1><br>
-    <a href="">Ke penambahan</a><br>
+    <a href="tambah">Ke penambahan</a><br>
     <a href="">Ke pengurangan</a><br>
-    <a href="">Ke perkalian</a><br>
+    <a href="perkalian">Ke perkalian</a><br>
     <a href="pembagian">Ke pembagian</a>
 
 </body>
